@@ -1,4 +1,4 @@
-name: CI
+name: prevent commit
 
 on:
   pull_request:
