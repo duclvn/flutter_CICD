@@ -23,7 +23,5 @@ jobs:
           channel: "stable"
       - name: Install pub Dependencies
         run: flutter pub get
-      - name: Check Format
-        run: flutter format --line-length=120 --set-exit-if-changed .
       - name: Analyze project source
         run: flutter analyze
